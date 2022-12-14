@@ -19,7 +19,7 @@ class SinglyLinkedList {
             let lastNode = this.head;
 
             while (lastNode.next !== null) {
-            lastNode = lastNode.next;
+                lastNode = lastNode.next;
             }
 
             lastNode.next = node;
